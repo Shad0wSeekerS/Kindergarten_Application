@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="login_user.png" />
+    <None Remove="password_user.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="login_user.png" />
+    <Resource Include="password_user.png" />
+  </ItemGroup>
+
+</Project>
